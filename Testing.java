@@ -46,22 +46,4 @@ public class Testing {
         getMin._delete();
         getMin._delete();
         System.out.println("=> Min currently value: "+getMin._minValue());
-/*
-            Map<String, String> misspeltWords = new HashMap<String, String>();
-            misspeltWords.put("calender", "calendar");
-            misspeltWords.put("tomatos", "tomatoes");
-            misspeltWords.put("existance", "existence");
-            misspeltWords.put("aquaintance", "acquaintance");
-            String sentence = "Buy a calender for the year 2013";
-            System.out.println("The given sentence is: " + sentence);
-            for(String word : sentence.split(" ")) {
-                  if(misspeltWords.containsKey(word)) {
-                        System.out.println("The correct spelling for " + word
-                                    + " is: " + misspeltWords.get(word));
-                  }
-            }
-
- 
-    }*/
-    
 }
